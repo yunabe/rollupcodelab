@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    // When esModuleInterop is used, module should be CommonJS to bundle files with rollup.
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "target": "ES2017",
+    "moduleResolution": "Node",
+    "lib": ["es2017", "DOM"],
+    "newLine": "LF",
+    "declaration": true,
+    "jsx": "react",
+    "rootDir": "src"
+  },
+  "include": ["src/*.ts"]
+}

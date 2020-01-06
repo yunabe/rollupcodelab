@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "target": "ES2017",
+    "moduleResolution": "Node",
+    "lib": ["es2017"],
+    "newLine": "LF",
+    "declaration": true
+  },
+  "include": ["src/main.ts"]
+}
